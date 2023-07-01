@@ -1,0 +1,44 @@
+{
+  "name": "tanstack-query-demo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:migrate": "prisma migrate dev",
+    "db:migrate:reset": "prisma migrate reset",
+    "db:studio": "prisma studio",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.16.2",
+    "@tanstack/react-query": "^4.29.19",
+    "@types/node": "18.11.18",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "eslint": "8.44.0",
+    "eslint-config-next": "13.4.7",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "swr": "^2.2.0",
+    "typescript": "5.1.6",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "postcss": "^8.4.24",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "prisma": "^4.16.2",
+    "tailwindcss": "^3.3.2"
+  }
+}
