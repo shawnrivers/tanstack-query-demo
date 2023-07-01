@@ -12,7 +12,7 @@ const Home: NextPage = () => {
   });
 
   return (
-    <main className="p-8">
+    <div>
       <h1 className="text-4xl font-bold">TODO with Tanstack Query</h1>
       <AddTodoForm />
       <section className="mt-4">
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           )}
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

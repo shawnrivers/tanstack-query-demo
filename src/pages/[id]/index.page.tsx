@@ -63,7 +63,7 @@ const TodoDetails: NextPage<
   }, [data]);
 
   return (
-    <main className="p-8">
+    <div>
       <div className="mb-4">
         <Link href="/" aria-label="Back" className="inline-block">
           <svg
@@ -143,7 +143,7 @@ const TodoDetails: NextPage<
       ) : (
         <Loader className="h-6 w-6 text-gray-700" />
       )}
-    </main>
+    </div>
   );
 };
 
